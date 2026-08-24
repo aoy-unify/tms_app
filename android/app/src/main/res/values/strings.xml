@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Odoo TMS Driver</string>
+    <string name="title_activity_main">Odoo TMS Driver</string>
+    <string name="package_name">com.unify.odoo.tmsdriver</string>
+    <string name="custom_url_scheme">com.unify.odoo.tmsdriver</string>
+</resources>

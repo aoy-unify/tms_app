@@ -1,0 +1,39 @@
+{
+  "name": "odoo-tms-driver",
+  "version": "1.0.3",
+  "description": "Capacitor shell for Odoo TMS (WebView, barcode, URL prefs)",
+  "type": "module",
+  "keywords": [
+    "capacitor",
+    "mobile"
+  ],
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "android:sync": "npm run build && npx cap sync android",
+    "android:open": "npx cap open android",
+    "android:apk": "node scripts/build-apk.mjs",
+    "ios:prepare": "node scripts/prepare-ios.mjs",
+    "ios:sync": "npm run build && npx cap sync ios",
+    "ios:open": "npx cap open ios",
+    "ios:ipa": "node scripts/build-ios.mjs"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.3.3",
+    "@capacitor/app": "^8.1.0",
+    "@capacitor/barcode-scanner": "^3.0.2",
+    "@capacitor/clipboard": "^8.0.1",
+    "@capacitor/core": "latest",
+    "@capacitor/geolocation": "^8.2.0",
+    "@capacitor/ios": "^8.5.0",
+    "@capacitor/preferences": "^8.0.1",
+    "@capacitor/splash-screen": "latest"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "latest",
+    "vite": "^7.3.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
