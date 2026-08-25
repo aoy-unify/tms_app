@@ -6,6 +6,8 @@
 	<string>development</string>
 	<key>signingStyle</key>
 	<string>automatic</string>
+	<key>teamID</key>
+	<string></string>
 	<key>compileBitcode</key>
 	<false/>
 	<key>stripSwiftSymbols</key>
